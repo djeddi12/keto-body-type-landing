@@ -21,9 +21,10 @@ const Navbar: React.FC = () => {
         
         <div>
           <a href="#pricing">
-            <Button className="keto-button-secondary hidden md:inline-block">
-              Get Your Copy
-            </Button>
+            <style>{`.pp-RERXNLQPQMTRA{text-align:center;border:none;border-radius:0.25rem;min-width:7.5rem;padding:0 1rem;height:2.3rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:0.9rem;line-height:1.25rem;cursor:pointer;}`}</style>
+            <form action="https://www.paypal.com/ncp/payment/RERXNLQPQMTRA" method="post" target="_blank" style={{display: 'inline-grid', justifyItems: 'center', alignContent: 'start'}}>
+              <input className="pp-RERXNLQPQMTRA hidden md:inline-block" type="submit" value="Get Your Copy" />
+            </form>
           </a>
         </div>
       </div>

@@ -29,11 +29,14 @@ const Index = () => {
                 <div className="relative z-10">
                   <h2 className="text-3xl font-bold mb-4">Get Instant Access Now</h2>
                   <p className="text-lg mb-6">Start your body-type specific keto journey today and see the difference!</p>
-                  <a href="#pricing">
-                    <Button className="keto-button-primary">
-                      Get Your Copy For Just $27
-                    </Button>
-                  </a>
+                  <div className="flex justify-center">
+                    <style>{`.pp-RERXNLQPQMTRA{text-align:center;border:none;border-radius:0.25rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}`}</style>
+                    <form action="https://www.paypal.com/ncp/payment/RERXNLQPQMTRA" method="post" target="_blank" style={{display: 'inline-grid', justifyItems: 'center', alignContent: 'start', gap: '0.5rem'}}>
+                      <input className="pp-RERXNLQPQMTRA" type="submit" value="Get Your Copy For Just $27" />
+                      <img src="https://www.paypalobjects.com/images/Debit_Credit.svg" alt="cards" />
+                      <section style={{fontSize: '0.75rem'}}> Optimisé par <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style={{height: '0.875rem', verticalAlign: 'middle'}}/></section>
+                    </form>
+                  </div>
                   <p className="mt-4 text-sm opacity-80">60-Day Satisfaction Guarantee • Instant Download</p>
                 </div>
               </div>

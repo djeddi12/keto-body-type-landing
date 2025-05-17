@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
       <div className="keto-container">
         <div className="flex flex-col md:flex-row justify-between pb-12 border-b border-gray-700">
           <div className="md:w-1/3 mb-8 md:mb-0">
-            <div className="font-bold text-2xl mb-4">Keto by Body Type</div>
+            <div className="font-bold text-2xl mb-4">ketodiet.it.com</div>
             <p className="text-gray-300 mb-4">
               Your personalized approach to keto dieting based on your unique body shape for optimal fat loss results.
             </p>
@@ -63,8 +63,8 @@ const Footer: React.FC = () => {
               <h3 className="font-semibold text-lg mb-4">Get In Touch</h3>
               <ul className="space-y-2">
                 <li className="text-gray-300">
-                  <a href="mailto:support@ketobodytype.com" className="hover:text-white">
-                    support@ketobodytype.com
+                  <a href="mailto:support@ketodiet.it.com" className="hover:text-white">
+                    support@ketodiet.it.com
                   </a>
                 </li>
               </ul>
@@ -74,7 +74,7 @@ const Footer: React.FC = () => {
         
         <div className="mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Keto by Body Type. All rights reserved.
+            &copy; {new Date().getFullYear()} ketodiet.it.com. All rights reserved.
           </p>
           
           <button 

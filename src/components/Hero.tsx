@@ -53,7 +53,7 @@ const Hero: React.FC = () => {
             <div className="relative animate-float">
               <div className="bg-white rounded-3xl p-4 shadow-2xl transform rotate-3 relative">
                 <img 
-                  src="https://ibb.co/nMgbCc1Y"
+                  src="/lovable-uploads/a0291785-bb20-4c66-bedc-2bcde502f31f.png"
                   alt="Keto by Body Type Book Cover" 
                   className="w-full h-auto rounded-2xl"
                 />

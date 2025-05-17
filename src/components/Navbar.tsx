@@ -8,7 +8,7 @@ const Navbar: React.FC = () => {
     <header className="py-4 border-b bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
       <div className="keto-container flex justify-between items-center">
         <div className="flex items-center">
-          <span className="text-xl font-bold text-keto-navy">Keto by Body Type</span>
+          <span className="text-xl font-bold text-keto-navy">ketodiet.it.com</span>
         </div>
         
         <nav className="hidden md:flex space-x-6 items-center">

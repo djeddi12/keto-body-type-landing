@@ -31,7 +31,7 @@ const FaqSection: React.FC = () => {
     },
     {
       question: "What if it doesn't work for me?",
-      answer: "We stand behind our approach with a 60-day money-back guarantee. If you don't see results after following the program, simply email us at support@ketobodytype.com for a full refund, no questions asked."
+      answer: "We stand behind our approach with a 60-day money-back guarantee. If you don't see results after following the program, simply email us at support@ketodiet.it.com for a full refund, no questions asked."
     }
   ];
 
@@ -48,9 +48,11 @@ const FaqSection: React.FC = () => {
         <div className="max-w-3xl mx-auto">
           <Accordion type="single" collapsible className="w-full">
             {faqs.map((faq, index) => (
-              <AccordionItem key={index} value={`item-${index}`}>
-                <AccordionTrigger className="text-left font-semibold text-lg">{faq.question}</AccordionTrigger>
-                <AccordionContent className="text-gray-600">{faq.answer}</AccordionContent>
+              <AccordionItem key={index} value={`item-${index}`} itemScope itemType="https://schema.org/Question">
+                <AccordionTrigger className="text-left font-semibold text-lg" itemProp="name">{faq.question}</AccordionTrigger>
+                <AccordionContent className="text-gray-600" itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                  <div itemProp="text">{faq.answer}</div>
+                </AccordionContent>
               </AccordionItem>
             ))}
           </Accordion>
@@ -58,9 +60,9 @@ const FaqSection: React.FC = () => {
           <div className="mt-12 text-center bg-white rounded-2xl p-8 shadow-sm">
             <h3 className="text-xl font-bold mb-3">Have More Questions?</h3>
             <p className="text-gray-600 mb-4">
-              Email us at support@ketobodytype.com – We're here to help!
+              Email us at support@ketodiet.it.com – We're here to help!
             </p>
-            <a href="mailto:support@ketobodytype.com">
+            <a href="mailto:support@ketodiet.it.com">
               <button className="keto-button-secondary">
                 Contact Support
               </button>

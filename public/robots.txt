@@ -1,8 +1,18 @@
+
+# robots.txt for ketodiet.it.com
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Optimize crawl rate for large bots
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 1
 
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 1
 
 User-agent: Twitterbot
 Allow: /
@@ -10,5 +20,10 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
-User-agent: *
-Allow: /
+# Sitemap declaration
+Sitemap: https://ketodiet.it.com/sitemap.xml
+
+# Disallow specific JavaScript files, admin pages, etc.
+Disallow: /src/
+Disallow: /admin/
+Disallow: /*?*

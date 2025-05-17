@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+                keto: {
+                    teal: '#2DD4BF',
+                    'teal-dark': '#14B8A6',
+                    orange: '#FF9E4F',
+                    'orange-dark': '#F97316',
+                    cream: '#FFFAF0',
+                    navy: '#0F172A'
+                }
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,12 +93,34 @@ export default {
 					to: {
 						height: '0'
 					}
-				}
+				},
+                'float': {
+                    '0%, 100%': {
+                        transform: 'translateY(0)'
+                    },
+                    '50%': {
+                        transform: 'translateY(-10px)'
+                    }
+                },
+                'pulse-subtle': {
+                    '0%, 100%': {
+                        opacity: '1'
+                    },
+                    '50%': {
+                        opacity: '0.8'
+                    }
+                }
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+				'accordion-up': 'accordion-up 0.2s ease-out',
+                'float': 'float 6s ease-in-out infinite',
+                'pulse-subtle': 'pulse-subtle 3s ease-in-out infinite'
+			},
+            backgroundImage: {
+                'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+                'keto-pattern': "url('/pattern-bg.svg')",
+            },
 		}
 	},
 	plugins: [require("tailwindcss-animate")],

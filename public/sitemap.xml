@@ -10,13 +10,33 @@
   <!-- Homepage -->
   <url>
     <loc>https://ketodiet.it.com/</loc>
-    <lastmod>2025-05-17T12:00:00+00:00</lastmod>
+    <lastmod>2025-05-18T12:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://ketodiet.it.com/lovable-uploads/a0291785-bb20-4c66-bedc-2bcde502f31f.png</image:loc>
       <image:title>Keto by Body Type Book Cover</image:title>
     </image:image>
+  </url>
+
+  <!-- Upsell Page -->
+  <url>
+    <loc>https://ketodiet.it.com/upsell</loc>
+    <lastmod>2025-05-18T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ketodiet.it.com/lovable-uploads/a0291785-bb20-4c66-bedc-2bcde502f31f.png</image:loc>
+      <image:title>Keto Meal Plans</image:title>
+    </image:image>
+  </url>
+
+  <!-- Thank You Page -->
+  <url>
+    <loc>https://ketodiet.it.com/thank-you</loc>
+    <lastmod>2025-05-18T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 
   <!-- Add more URLs as you expand your site -->

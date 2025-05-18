@@ -57,7 +57,7 @@ const PricingSection: React.FC = () => {
               
               <div className="pt-4">
                 <div className="mb-4 flex justify-center md:justify-start">
-                  <a href="https://www.digistore24.com/product/XXXXX" target="_blank" rel="noopener noreferrer" className="keto-button-primary w-full text-center">
+                  <a href="https://www.digistore24.com/product/613394" target="_blank" rel="noopener noreferrer" className="keto-button-primary w-full text-center">
                     Buy Now & Start Losing Fat Smarter
                   </a>
                 </div>

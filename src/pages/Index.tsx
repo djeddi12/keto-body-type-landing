@@ -39,7 +39,7 @@ const Index = () => {
                   <h2 className="text-3xl font-bold mb-4">Get Instant Access Now</h2>
                   <p className="text-lg mb-6">Start your body-type specific keto journey today and see the difference!</p>
                   <div className="flex justify-center">
-                    <a href="https://www.digistore24.com/product/XXXXX" target="_blank" rel="noopener noreferrer" className="keto-button-primary">
+                    <a href="https://www.digistore24.com/product/613394" target="_blank" rel="noopener noreferrer" className="keto-button-primary">
                       Get Your Copy For Just $27
                     </a>
                   </div>

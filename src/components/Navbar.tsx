@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
         </nav>
         
         <div>
-          <a href="https://www.digistore24.com/product/XXXXX" target="_blank" rel="noopener noreferrer" className="keto-button-primary hidden md:inline-block py-2 px-4 text-sm">
+          <a href="https://www.digistore24.com/product/613394" target="_blank" rel="noopener noreferrer" className="keto-button-primary hidden md:inline-block py-2 px-4 text-sm">
             Get Your Copy
           </a>
         </div>

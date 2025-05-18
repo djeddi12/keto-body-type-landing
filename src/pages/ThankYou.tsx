@@ -55,10 +55,13 @@ const ThankYou = () => {
                     Your complete guide to implementing a personalized keto diet based on your unique body shape for maximum fat loss results.
                   </p>
                   
-                  <Button className="w-full sm:w-auto bg-keto-teal hover:bg-keto-teal-dark gap-2">
+                  <a href="https://docs.google.com/document/d/1mwCgCLGMb7og_EYoxQOJDpi-Q-IrZhz8/edit?usp=drive_link&ouid=118374563375362136325&rtpof=true&sd=true" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-keto-teal hover:bg-keto-teal-dark text-white h-10 px-4 py-2 w-full sm:w-auto gap-2">
                     <Download className="h-4 w-4" />
                     Download Your Guide (PDF)
-                  </Button>
+                  </a>
                 </div>
               </div>
               

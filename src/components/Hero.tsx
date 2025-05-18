@@ -12,8 +12,8 @@ const Hero: React.FC = () => {
             <div className="space-y-2">
               <span className="keto-highlight">NEW APPROACH TO KETO</span>
               <h2 id="hero-heading" className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
-                <span className="keto-gradient-text">Discover the Keto Plan</span> 
-                <br />That Matches <span className="underline decoration-keto-orange decoration-4">YOUR</span> Body Type
+                <span className="keto-gradient-text">Discover the Fat-Burning Plan</span> 
+                <br />For <span className="underline decoration-keto-orange decoration-4">YOUR</span> Body Type
               </h2>
             </div>
             
@@ -22,11 +22,9 @@ const Hero: React.FC = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <a href="#pricing" aria-label="Get started with your personalized keto diet plan">
-                <button className="keto-button-primary flex items-center justify-center w-full sm:w-auto">
-                  <span>Get Started Today</span>
-                  <ArrowDownCircle className="ml-2 h-5 w-5" />
-                </button>
+              <a href="https://www.digistore24.com/product/XXXXX" target="_blank" rel="noopener noreferrer" className="keto-button-primary flex items-center justify-center w-full sm:w-auto">
+                <span>Get Started Today</span>
+                <ArrowDownCircle className="ml-2 h-5 w-5" />
               </a>
               <a href="#features" aria-label="Learn more about our keto diet plans">
                 <button className="keto-button-secondary w-full sm:w-auto">
@@ -44,7 +42,7 @@ const Hero: React.FC = () => {
               <svg className="w-5 h-5 text-keto-orange" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd"></path>
               </svg>
-              <span>Secure Checkout</span>
+              <span>Secure Checkout via Digistore24</span>
             </div>
           </div>
           

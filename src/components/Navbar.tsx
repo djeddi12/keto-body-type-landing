@@ -15,18 +15,16 @@ const Navbar: React.FC = () => {
         
         <nav className="hidden md:flex space-x-6 items-center" aria-label="Main Navigation">
           <a href="#features" className="text-gray-600 hover:text-keto-teal-dark transition-colors" aria-label="Learn about our features">Features</a>
-          <a href="#who-its-for" className="text-gray-600 hover:text-keto-teal-dark transition-colors" aria-label="See who our product is for">Who It's For</a>
+          <a href="#body-types" className="text-gray-600 hover:text-keto-teal-dark transition-colors" aria-label="Learn about body types">Body Types</a>
           <a href="#testimonials" className="text-gray-600 hover:text-keto-teal-dark transition-colors" aria-label="Read customer testimonials">Results</a>
+          <a href="#about" className="text-gray-600 hover:text-keto-teal-dark transition-colors" aria-label="About the author">About</a>
           <a href="#pricing" className="text-gray-600 hover:text-keto-teal-dark transition-colors" aria-label="View our pricing">Pricing</a>
           <a href="#faq" className="text-gray-600 hover:text-keto-teal-dark transition-colors" aria-label="Read frequently asked questions">FAQ</a>
         </nav>
         
         <div>
-          <a href="#pricing" aria-label="Get your copy of our keto diet guide">
-            <style>{`.pp-RERXNLQPQMTRA{text-align:center;border:none;border-radius:0.25rem;min-width:7.5rem;padding:0 1rem;height:2.3rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:0.9rem;line-height:1.25rem;cursor:pointer;}`}</style>
-            <form action="https://www.paypal.com/ncp/payment/RERXNLQPQMTRA" method="post" target="_blank" style={{display: 'inline-grid', justifyItems: 'center', alignContent: 'start'}}>
-              <input className="pp-RERXNLQPQMTRA hidden md:inline-block" type="submit" value="Get Your Copy" />
-            </form>
+          <a href="https://www.digistore24.com/product/XXXXX" target="_blank" rel="noopener noreferrer" className="keto-button-primary hidden md:inline-block py-2 px-4 text-sm">
+            Get Your Copy
           </a>
         </div>
       </div>

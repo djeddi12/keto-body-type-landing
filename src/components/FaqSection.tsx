@@ -27,11 +27,19 @@ const FaqSection: React.FC = () => {
     },
     {
       question: "How do I receive the guide after purchase?",
-      answer: "Immediately after purchase, you'll receive an email with a download link to access your PDF guide. You can view it on any device including computers, tablets, and smartphones. You'll also have access to any future updates."
+      answer: "Immediately after purchase through Digistore24, you'll receive an email with a download link to access your PDF guide. You can view it on any device including computers, tablets, and smartphones. You'll also have access to any future updates."
     },
     {
       question: "What if it doesn't work for me?",
       answer: "We stand behind our approach with a 60-day money-back guarantee. If you don't see results after following the program, simply email us at support@ketodiet.it.com for a full refund, no questions asked."
+    },
+    {
+      question: "Does this require special foods or supplements?",
+      answer: "No, our guide works with regular foods you can find at any grocery store. While we do recommend some optional supplements that can enhance results for each body type, they are not required for the program to work effectively."
+    },
+    {
+      question: "Is this for men, women, or both?",
+      answer: "Our guide includes specific recommendations for both men and women. We recognize that hormonal differences between genders play a significant role in fat storage and metabolism, so we provide gender-specific advice for each body type."
     }
   ];
 

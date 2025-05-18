@@ -9,7 +9,7 @@ import PricingSection from '@/components/PricingSection';
 import FaqSection from '@/components/FaqSection';
 import Footer from '@/components/Footer';
 import SchemaMarkup from '@/components/SchemaMarkup';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 const Index = () => {
   return (

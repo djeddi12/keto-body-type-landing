@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
+import OptimizedImage from "./OptimizedImage";
 
 const AboutAuthor: React.FC = () => {
   return (
@@ -16,10 +17,11 @@ const AboutAuthor: React.FC = () => {
         <div className="grid md:grid-cols-3 gap-8 items-center">
           <div className="md:col-span-1">
             <div className="rounded-full overflow-hidden border-4 border-keto-teal shadow-xl max-w-xs mx-auto">
-              <img 
-                src="https://placehold.co/400x400/2DD4BF/FFFFFF/png?text=Aimad+Djeddi&font=montserrat" 
+              <OptimizedImage 
+                src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952" 
                 alt="Aimad Djeddi - Keto Diet Expert" 
                 className="w-full h-auto"
+                loading="eager"
               />
             </div>
           </div>

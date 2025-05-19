@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <a href="https://www.digistore24.com/product/XXXXX" target="_blank" rel="noopener noreferrer" className="keto-button-primary flex items-center justify-center w-full sm:w-auto">
+              <a href="https://www.digistore24.com/product/613394" target="_blank" rel="noopener noreferrer" className="keto-button-primary flex items-center justify-center w-full sm:w-auto">
                 <span>Get Started Today</span>
                 <ArrowDownCircle className="ml-2 h-5 w-5" />
               </a>

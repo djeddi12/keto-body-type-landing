@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
   return (
@@ -20,7 +19,7 @@ const Navbar: React.FC = () => {
           <a href="#about" className="text-gray-600 hover:text-keto-teal-dark transition-colors" aria-label="About the author">About</a>
           <a href="#pricing" className="text-gray-600 hover:text-keto-teal-dark transition-colors" aria-label="View our pricing">Pricing</a>
           <a href="#faq" className="text-gray-600 hover:text-keto-teal-dark transition-colors" aria-label="Read frequently asked questions">FAQ</a>
-          <a href="/contact" className="text-gray-600 hover:text-keto-teal-dark transition-colors" aria-label="Contact us">Support</a>
+          <a href="#contact" className="text-gray-600 hover:text-keto-teal-dark transition-colors" aria-label="Contact us">Support</a>
         </nav>
         
         <div>

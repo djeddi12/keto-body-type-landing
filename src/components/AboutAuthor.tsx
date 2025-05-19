@@ -17,23 +17,23 @@ const AboutAuthor: React.FC = () => {
           <div className="md:col-span-1">
             <div className="rounded-full overflow-hidden border-4 border-keto-teal shadow-xl max-w-xs mx-auto">
               <img 
-                src="https://placehold.co/400x400/2DD4BF/FFFFFF/png?text=Author&font=montserrat" 
-                alt="Keto Diet Expert" 
+                src="https://placehold.co/400x400/2DD4BF/FFFFFF/png?text=Aimad+Djeddi&font=montserrat" 
+                alt="Aimad Djeddi - Keto Diet Expert" 
                 className="w-full h-auto"
               />
             </div>
           </div>
           
           <div className="md:col-span-2 space-y-6">
-            <h3 className="text-2xl font-bold text-keto-navy">Nutrition & Body Type Specialist</h3>
+            <h3 className="text-2xl font-bold text-keto-navy">Aimad Djeddi - Nutrition & Body Type Specialist</h3>
             <p className="text-lg text-gray-700">
-              With over 15 years of experience in nutritional science and metabolic research, our expert has helped thousands 
+              With over 15 years of experience in nutritional science and metabolic research, Aimad Djeddi has helped thousands 
               of clients transform their bodies by understanding the critical connection between body types and 
               optimal nutritional approaches.
             </p>
             <p className="text-lg text-gray-700">
               After observing that one-size-fits-all diet plans consistently failed clients with different body types, 
-              they developed this comprehensive guide to help people customize the ketogenic diet to their unique body structure 
+              he developed this comprehensive guide to help people customize the ketogenic diet to their unique body structure 
               and metabolic patterns.
             </p>
             <div className="flex flex-wrap gap-4">

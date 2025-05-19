@@ -19,6 +19,9 @@ const Footer: React.FC = () => {
             <p className="text-gray-300 mb-4">
               Your personalized approach to keto dieting based on your unique body shape for optimal fat loss results.
             </p>
+            <p className="text-gray-300 mb-4">
+              Created by Aimad Djeddi
+            </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white">
                 <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -62,6 +65,10 @@ const Footer: React.FC = () => {
             <div>
               <h3 className="font-semibold text-lg mb-4">Get In Touch</h3>
               <ul className="space-y-2">
+                <li className="text-gray-300">Aimad Djeddi</li>
+                <li className="text-gray-300">
+                  <a href="tel:0665121272" className="hover:text-white">0665121272</a>
+                </li>
                 <li className="text-gray-300">
                   <a href="mailto:support@ketodiet.it.com" className="hover:text-white">
                     support@ketodiet.it.com

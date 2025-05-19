@@ -82,6 +82,8 @@ const Contact = () => (
         
         <div className="bg-keto-cream rounded-xl p-8 shadow-sm">
           <h3 className="font-bold text-xl mb-4">Contact Information</h3>
+          <p className="mb-4">Aimad Djeddi</p>
+          <p className="mb-4">Phone: <a href="tel:0665121272" className="text-keto-teal hover:underline">0665121272</a></p>
           <p className="mb-6">Email: <a href="mailto:support@ketodiet.it.com" className="text-keto-teal hover:underline">support@ketodiet.it.com</a></p>
           
           <div className="bg-white rounded-lg p-6">

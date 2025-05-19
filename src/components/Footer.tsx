@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { ArrowUp } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -40,27 +41,27 @@ const Footer: React.FC = () => {
           
           <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
+              <h3 className="font-semibold text-lg mb-4">روابط سريعة</h3>
               <ul className="space-y-2">
                 <li><a href="#features" className="text-gray-300 hover:text-white">Features</a></li>
-                <li><a href="#who-its-for" className="text-gray-300 hover:text-white">Who It's For</a></li>
+                <li><a href="#body-types" className="text-gray-300 hover:text-white">Body Types</a></li>
                 <li><a href="#testimonials" className="text-gray-300 hover:text-white">Results</a></li>
                 <li><a href="#pricing" className="text-gray-300 hover:text-white">Pricing</a></li>
               </ul>
             </div>
             
             <div>
-              <h3 className="font-semibold text-lg mb-4">Support</h3>
+              <h3 className="font-semibold text-lg mb-4">الدعم</h3>
               <ul className="space-y-2">
-                <li><a href="#faq" className="text-gray-300 hover:text-white">FAQ</a></li>
-                <li><a href="/contact" className="text-gray-300 hover:text-white">Contact</a></li>
-                <li><a href="/privacy-policy" className="text-gray-300 hover:text-white">Privacy Policy</a></li>
-                <li><a href="/terms-of-service" className="text-gray-300 hover:text-white">Terms of Service</a></li>
+                <li><Link to="#faq" className="text-gray-300 hover:text-white">FAQ</Link></li>
+                <li><Link to="/contact" className="text-gray-300 hover:text-white">Contact</Link></li>
+                <li><Link to="/privacy-policy" className="text-gray-300 hover:text-white">Privacy Policy</Link></li>
+                <li><Link to="/terms-of-service" className="text-gray-300 hover:text-white">Terms of Service</Link></li>
               </ul>
             </div>
             
             <div>
-              <h3 className="font-semibold text-lg mb-4">Get In Touch</h3>
+              <h3 className="font-semibold text-lg mb-4">تواصل معنا</h3>
               <ul className="space-y-2">
                 <li className="text-gray-300">
                   <a href="mailto:support@ketodiet.it.com" className="hover:text-white">
@@ -90,3 +91,4 @@ const Footer: React.FC = () => {
 };
 
 export default Footer;
+

@@ -46,9 +46,9 @@ const LegalInformation = () => {
                   <h3 className="font-semibold text-gray-700">Full Address:</h3>
                   <address className="not-italic">
                     Aimad Djeddi<br />
-                    1234 Keto Street<br />
-                    Any City, AC 12345<br />
-                    Country
+                    1234 Ferphos Street<br />
+                    Tebessa City, AC 12000<br />
+                    Algeria
                   </address>
                 </div>
                 

@@ -4,8 +4,9 @@ import { Helmet } from 'react-helmet-async';
 import { Button } from '@/components/ui/button';
 import OptimizedImage from '@/components/OptimizedImage';
 import Footer from '@/components/Footer';
-import { CheckCircle, Download, Mail, BookOpen, ArrowRight } from 'lucide-react';
+import { CheckCircle, Download, Mail, BookOpen, ArrowRight, Shield, AlertTriangle, Info } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { Alert, AlertDescription } from '@/components/ui/alert';
 
 const ThankYou = () => {
   return (
@@ -32,9 +33,18 @@ const ThankYou = () => {
               Thank You For Your Purchase!
             </h1>
             <p className="text-lg md:text-xl text-gray-600">
-              Your order has been successfully processed and your download is ready.
+              Your order has been successfully processed and your digital product is ready for immediate download.
             </p>
           </div>
+
+          <Alert className="bg-blue-50 border-blue-200 mb-8 max-w-4xl mx-auto">
+            <Info className="h-5 w-5 text-blue-500" />
+            <AlertDescription>
+              <p className="font-medium text-blue-800">Transaction Information</p>
+              <p className="text-sm text-blue-700">The debit is made by Digistore24. The withdrawal from your account will be done by Digistore24.</p>
+              <p className="text-sm text-blue-700 mt-1">The charge will appear as "DIGISTORE24*KETODIET" on your bank statement.</p>
+            </AlertDescription>
+          </Alert>
 
           <div className="bg-white rounded-xl shadow-lg max-w-4xl mx-auto mb-12 overflow-hidden">
             <div className="p-6 md:p-10 space-y-8">
@@ -55,13 +65,23 @@ const ThankYou = () => {
                     Your complete guide to implementing a personalized keto diet based on your unique body shape for maximum fat loss results.
                   </p>
                   
-                  <a href="https://docs.google.com/document/d/1mwCgCLGMb7og_EYoxQOJDpi-Q-IrZhz8/edit?usp=drive_link&ouid=118374563375362136325&rtpof=true&sd=true" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-keto-teal hover:bg-keto-teal-dark text-white h-10 px-4 py-2 w-full sm:w-auto gap-2">
-                    <Download className="h-4 w-4" />
-                    Download Your Guide (PDF)
-                  </a>
+                  <Alert className="bg-yellow-50 border-yellow-200 mb-4">
+                    <AlertTriangle className="h-5 w-5 text-yellow-500" />
+                    <AlertDescription>
+                      <p className="text-sm text-yellow-700">Please check your email inbox for a confirmation email with your download link. If you don't see it, please check your spam/junk folder.</p>
+                    </AlertDescription>
+                  </Alert>
+                  
+                  <div className="bg-green-50 p-4 rounded-md border border-green-200">
+                    <p className="font-medium text-green-800 mb-2">Your Digital Product - Instant Access</p>
+                    <a href="https://docs.google.com/document/d/1mwCgCLGMb7og_EYoxQOJDpi-Q-IrZhz8/edit?usp=drive_link&ouid=118374563375362136325&rtpof=true&sd=true" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-keto-teal hover:bg-keto-teal-dark text-white h-10 px-4 py-2 w-full sm:w-auto gap-2">
+                      <Download className="h-4 w-4" />
+                      Download Your Guide (PDF)
+                    </a>
+                  </div>
                 </div>
               </div>
               
@@ -87,6 +107,14 @@ const ThankYou = () => {
                   </div>
                 </div>
               </div>
+
+              <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 flex items-center gap-4">
+                <Shield className="h-10 w-10 text-keto-teal flex-shrink-0" />
+                <div>
+                  <h4 className="font-semibold text-lg mb-1">60-Day Money Back Guarantee</h4>
+                  <p className="text-gray-600">If you're not completely satisfied with your purchase, contact us within 60 days for a full refund. No questions asked.</p>
+                </div>
+              </div>
             </div>
           </div>
           
@@ -99,11 +127,19 @@ const ThankYou = () => {
               </a>
             </p>
             
-            <Link to="/">
-              <Button variant="outline" className="gap-2">
-                Return to Homepage <ArrowRight className="h-4 w-4" />
-              </Button>
-            </Link>
+            <div className="flex flex-wrap gap-4 justify-center">
+              <Link to="/">
+                <Button variant="outline" className="gap-2">
+                  Return to Homepage <ArrowRight className="h-4 w-4" />
+                </Button>
+              </Link>
+              
+              <Link to="/legal-information">
+                <Button variant="outline" className="gap-2">
+                  Legal Information <Info className="h-4 w-4" />
+                </Button>
+              </Link>
+            </div>
           </div>
         </div>
       </main>
@@ -114,3 +150,4 @@ const ThankYou = () => {
 };
 
 export default ThankYou;
+

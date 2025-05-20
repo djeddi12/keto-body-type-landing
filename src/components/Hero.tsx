@@ -1,6 +1,7 @@
+
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { ArrowDownCircle } from 'lucide-react';
+import { ArrowDownCircle, Shield } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
@@ -22,7 +23,7 @@ const Hero: React.FC = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <a href="https://www.digistore24.com/product/613394" target="_blank" rel="noopener noreferrer" className="keto-button-primary flex items-center justify-center w-full sm:w-auto">
-                <span>Get Started Today</span>
+                <span>Get Your Digital Guide Now</span>
                 <ArrowDownCircle className="ml-2 h-5 w-5" />
               </a>
               <a href="#features" aria-label="Learn more about our keto diet plans">
@@ -32,16 +33,23 @@ const Hero: React.FC = () => {
               </a>
             </div>
             
-            <div className="flex items-center justify-center md:justify-start space-x-2 text-sm text-gray-500">
-              <svg className="w-5 h-5 text-keto-orange" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-              </svg>
-              <span>60-Day Money Back Guarantee</span>
-              <span aria-hidden="true">•</span>
-              <svg className="w-5 h-5 text-keto-orange" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd"></path>
-              </svg>
-              <span>Secure Checkout via Digistore24</span>
+            <div className="flex flex-col items-center md:items-start">
+              <div className="flex items-center space-x-2 text-sm text-gray-500 mb-2">
+                <svg className="w-5 h-5 text-keto-orange" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+                </svg>
+                <span>Instant Digital Access</span>
+                <span aria-hidden="true">•</span>
+                <svg className="w-5 h-5 text-keto-orange" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd"></path>
+                </svg>
+                <span>Secure Checkout via Digistore24</span>
+              </div>
+
+              <div className="flex items-center justify-center md:justify-start bg-amber-100 px-4 py-2 rounded-full">
+                <Shield className="text-amber-600 mr-2 h-5 w-5" />
+                <span className="font-bold text-amber-800">60-Day Money Back Guarantee</span>
+              </div>
             </div>
           </div>
           

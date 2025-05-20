@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { ArrowUp } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -59,6 +60,7 @@ const Footer: React.FC = () => {
                 <li><a href="#contact" className="text-gray-300 hover:text-white">Contact</a></li>
                 <li><a href="#privacy" className="text-gray-300 hover:text-white">Privacy Policy</a></li>
                 <li><a href="#terms" className="text-gray-300 hover:text-white">Terms of Service</a></li>
+                <li><Link to="/legal-information" className="text-gray-300 hover:text-white">Legal Information</Link></li>
               </ul>
             </div>
             
@@ -81,7 +83,8 @@ const Footer: React.FC = () => {
         
         <div className="mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} ketodiet.it.com. All rights reserved.
+            &copy; {new Date().getFullYear()} ketodiet.it.com. All rights reserved.<br />
+            <span className="text-sm">Payment processed by <Link to="/legal-information" className="text-gray-300 hover:text-white underline">Digistore24</Link></span>
           </p>
           
           <button 

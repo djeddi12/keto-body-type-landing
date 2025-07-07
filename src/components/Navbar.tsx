@@ -19,6 +19,7 @@ const Navbar: React.FC = () => {
           <a href="#about" className="text-gray-600 hover:text-keto-teal-dark transition-colors" aria-label="About the author">About</a>
           <a href="#pricing" className="text-gray-600 hover:text-keto-teal-dark transition-colors" aria-label="View our pricing">Pricing</a>
           <a href="#faq" className="text-gray-600 hover:text-keto-teal-dark transition-colors" aria-label="Read frequently asked questions">FAQ</a>
+          <a href="/articles" className="text-gray-600 hover:text-keto-teal-dark transition-colors" aria-label="Read our articles">Articles</a>
           <a href="#contact" className="text-gray-600 hover:text-keto-teal-dark transition-colors" aria-label="Contact us">Support</a>
         </nav>
         
